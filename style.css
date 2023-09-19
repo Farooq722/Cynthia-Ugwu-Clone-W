@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.mouse-circle{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 999;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+.main{
+    width: 100%;
+    background-color: black;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+    position: relative;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 35px;
+}
+.nav h3{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+.nav .menu{
+    text-transform: uppercase;
+}
+
+.heading{
+    margin-top: 90px;
+}
+.heading h1{
+    line-height: .9 ;
+    margin-left: 30px;
+    font-size:10vw;
+    text-transform: uppercase;
+    opacity: 0.6;
+    font-weight: 800;
+    
+}
+.heading .secondh1{
+    margin-left: 13.5vw;
+}
+
+.blocktext{
+    width: fit-content;
+}
+.blocktext h5{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 1.2vw;
+    font-weight: 900;
+    color: #fff;
+}
+
+.sub-heading{
+    margin-top: 8vw;
+}
+
+.sub-heading h5{
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: .9vw;
+    padding-right: 3vw;
+    font-size: 1.1vw;
+    font-weight: 100;
+}
+
+.hero-footer{
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    padding: 0 2.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 900;
+}
+.hero-footer a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.hero-footer .icons{
+    display: flex;
+    gap: 5px;
+    color: black;
+}
+.hero-footer .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background-color: grey;
+    border-radius: 50%;
+}
+/* FIRST PAGE CSS ENDS HERE */
+
+
+/* SECOND PAGE CSS STARTS HERE*/
+
+.second-hero{
+    padding-right: 11vw;
+    padding-top: 300px;
+    background-color: black; 
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+.element-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 3.5vw 3vw;
+    padding-right: 0;
+    border-top: 1px solid #888;
+}
+.element-1 h1{
+    font-size: 6vw;
+    text-transform: uppercase;
+    opacity: .7;
+}
+.last-element{
+    border-bottom: 1px solid #888;
+}
+
+.element-1 img{
+    display: none;
+    height: 140%;
+    z-index: 999;
+    position: absolute;
+}
+
+/* SECOND PAGE CSS ENDS HERE */
+
+/* THIRD PAGE CSS STARTS HERE */
+.third-hero{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 20vw 10vw;
+    padding-left: 40px;
+    font-size: 1.3vw;
+    gap: 50px;
+}
+.text{
+width: 25rem;
+}
+
+.text h5{
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+
+.text p{
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.third-hero img{
+    width: 250px;
+}
+
+.text a{
+    padding: 8px 30px;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 100px;
+    border: 1px solid #fff;
+}
+
+/* THIRD PAGE CSS ENDS HERE */
+
+.fourth-hero{
+    width: 100%;
+    background-color: black;
+    padding: 20px 40px;
+    padding-bottom: 7vw;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.1vw;
+}
+.fourth-hero h5{
+    opacity: .6;
+    margin-bottom: 10px;
+}
+.fourth-hero a{
+    text-decoration: none;
+    color: #fff;
+}
+/* THIRD PAGE CSS ENDS HERE */
+
+/* FOOTER PAGE CSS STARTS HERE */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    color: #fff;
+    background-color: black;
+}
+
+.footerleft{
+    display: flex;
+    gap: 30px;
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.footerright{
+    display: flex;
+    gap: 40px;
+}
+
+.footerright a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+
+}
+/*FOOTER CSS ENDS HERE*/
